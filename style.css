@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+    font-weight: 400;
+}
+body {
+    background-color: #F3E5D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container {
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 30px;
+    border-radius: 15px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+}
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.h1 {
+    margin: 20px 0;
+    font-family: 'Young Serif';
+}
+.brief {
+    color: gray;
+}
+.time  {
+    background-color: #FFF7FC;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.time ul, .ingredients ul {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.time ul li {
+    padding-left: 15px;
+    color: #706664;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.ingredients {
+    margin-bottom: 20px;
+}
+.ingredients ul li {
+    padding-left: 15px;
+    color: gray;
+    margin: 10px 0;
+    font-weight: 500;
+}
+.h3 {
+    color: #753A54;
+    font-weight: bold;
+}
+.h2 {
+    color: #83503E;
+    font-family: 'Young Serif';
+    margin-bottom: 20px;
+}
+.ingredients {
+    margin-top: 20px;
+}
+hr {
+    color: #eee;
+    opacity: 80%;
+}
+ol{
+    margin-left: 25px;
+}
+ol li {
+    color: #83503E;
+    font-weight: bold;
+    padding-left: 25px;
+}
+.instruction {
+    color: #000;
+    opacity: 70%;
+    font-weight: bold;
+}
+.h2plus {
+    margin-top: 20px;
+}
+.text {
+    display: inline;
+    color: gray;
+    font-weight: 500;
+    margin-left: 2px;
+}
+.instructions {
+    margin-bottom: 30px;
+}
+.margin {
+    margin-right: 280px;
+    margin-left: 30px;
+}
+
+.special {
+    color: #83503E;
+    font-weight: bold;
+}
+.width {
+    display: inline-block;
+    width: 110px;
+    margin-right: 280px;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    body {
+        background-color: transparent;
+    }
+    .main-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+        margin-bottom: 40px;
+    }
+    .image img {
+        width: 100%;
+        border-radius: 0;
+    }
+    .width {
+        display: inline-block;
+        width: 110px;
+        margin-right: 180px;
+    }
+    .padding {
+        width: calc(100% - 50px);    
+    }
+    .time {
+        width: calc(100% - 50px);    
+    }
+}
